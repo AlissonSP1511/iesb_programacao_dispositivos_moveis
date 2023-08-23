@@ -2,16 +2,16 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import MeuComponente from './componentes/MeuComponente';
-import MinMax 
+import MinMax from './componentes/MinMax';
 
 
 
 export default function App() {
   return (
-     <View styles={styles.container}>
-      <MeuComponente/>
+     <View style={styles.container}>
+      <MinMax Min ='20' Max ='40' />
      </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
