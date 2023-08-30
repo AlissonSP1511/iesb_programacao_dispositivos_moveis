@@ -1,19 +1,32 @@
-
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import MeuComponente from './componentes/Semana01/MeuComponente';
-import MinMax from './componentes/Semana01/MinMax';
-import NumeroAleatorio from './componentes/Semana02/ExercicioNumeroAleatório';
-
-
+// import MeuComponente from './componentes/semana02/MeuComponente';
+// import MeuComponente2 from './componentes/semana02/MeuComponente2';
+// import MeuComponente3 from './componentes/semana02/MeuComponente3';
+// import NumeroAleatorio from './componentes/Semana03/NumeroAleatorio';
+// import Botao from './componentes/Semana03/botao';
+// import Contador from './componentes/Semana03/Contador';
+import DigiteSeuNome from './componentes/Semana03/DigiteSeuNome';
 
 export default function App() {
   return (
-     <View style={styles.container}>
-      {/* <MinMax Min = {20} Max = {40} /> */}
-      <NumeroAleatorio min={1} max={100} />
-     </View>
-  )
+    <View style={styles.container}>
+      {/* <MeuComponente /> */}
+      {/* <MinMax min="10" max="20" /> */}
+
+      {/* <MeuComponente /> */}
+
+      {/* <NumeroAleatorio min={1} max={60} /> */}
+
+      {/* <Botao /> */}
+
+      {/* <Contador /> */}
+
+      <DigiteSeuNome/>
+
+
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
