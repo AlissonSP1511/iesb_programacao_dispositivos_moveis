@@ -6,12 +6,14 @@ import { StyleSheet, Text, View } from 'react-native';
 // import NumeroAleatorio from './componentes/Semana03/NumeroAleatorio';
 // import Botao from './componentes/Semana03/botao';
 // import Contador from './componentes/Semana03/Contador';
-import DigiteSeuNome from './componentes/Semana03/DigiteSeuNome';
+// import DigiteSeuNome from './componentes/Semana03/DigiteSeuNome';
+// import Pai from './componentes/Semana04/ComunicacaoDireta/Pai';
 
 export default function App() {
   return (
     <View style={styles.container}>
       {/* <MeuComponente /> */}
+
       {/* <MinMax min="10" max="20" /> */}
 
       {/* <MeuComponente /> */}
@@ -22,8 +24,9 @@ export default function App() {
 
       {/* <Contador /> */}
 
-      <DigiteSeuNome/>
+      {/* <DigiteSeuNome/> */}
 
+      {/* <Pai/> */}
 
     </View>
   );
