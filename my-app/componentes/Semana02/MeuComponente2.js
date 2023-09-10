@@ -1,4 +1,5 @@
-import { Text } from "react-native";
+import { Text } from "react-native"
+
 
 const MeuComponente2 = function () {
     return (

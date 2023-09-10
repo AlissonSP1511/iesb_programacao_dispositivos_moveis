@@ -1,5 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Biscoito from './componentes/Biscoito';
+import Profile from './componentes/Semana04/Profile';
 // import MeuComponente from './componentes/semana02/MeuComponente';
 // import MeuComponente2 from './componentes/semana02/MeuComponente2';
 // import MeuComponente3 from './componentes/semana02/MeuComponente3';
@@ -27,6 +29,10 @@ export default function App() {
       {/* <DigiteSeuNome/> */}
 
       {/* <Pai/> */}
+
+      {/* <Biscoito /> */}
+
+      <Profile />
 
     </View>
   );
