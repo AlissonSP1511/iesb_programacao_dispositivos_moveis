@@ -60,9 +60,9 @@ export default function App() {
 
       {/* <NumeroAleatorio min={1} max={60} /> */}
 
-      {/* <Biscoito /> */}
+      <Biscoito />
 
-      <Profile />
+      {/* <Profile /> */}
 
       {/* <ParOuImpar /> */}
 
