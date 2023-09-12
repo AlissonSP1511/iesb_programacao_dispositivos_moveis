@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
   textofrase: {
     fontSize: 30,
     fontStyle: "italic",
-    color: "grey",
+    color: "orange",
   },
 
   imagem: {
