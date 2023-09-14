@@ -29,6 +29,8 @@ import ParOuImpar from './componentes/Semana04/ParOuImpar';
 
 import Biscoito from './componentes/Biscoito';
 import Profile from './componentes/Profile';
+import Botao2 from './componentes/Botao2';
+import Cronometro from './componentes/Cronometro';
 export default function App() {
   return (
     <View style={styles.container}>
@@ -60,13 +62,16 @@ export default function App() {
 
       {/* <NumeroAleatorio min={1} max={60} /> */}
 
-      <Biscoito />
+      {/* <Biscoito /> */}
 
       {/* <Profile /> */}
 
       {/* <ParOuImpar /> */}
 
       {/* <IntroducaoEstilos /> */}
+
+      {/* <Botao2 /> */}
+      <Cronometro />
 
     </View>
   );
