@@ -4,6 +4,7 @@ import React from 'react'
 
 // ROTAS
 import Restaurantes from '../screens/restaurantes/Restaurantes'
+import { View } from 'react-native'
 // import RestauranteDetalhes from '../screens/restaurantes/RestauranteDetalhes'
 
 const Stack = createStackNavigator()
@@ -14,11 +15,12 @@ export default function Router() {
         <NavigationContainer>
             <Stack.Navigator initialRouteName='Restaurantes'>
 
-                <Stack.Screen name ="Restaurantes" component={Restaurantes}/>
+                <Stack.Screen name="Restaurantes" component={Restaurantes} />
                 {/* <Stack.Screen name ="RestauranteDetalhes" component={RestauranteDetalhes}/> */}
-              
+
             </Stack.Navigator>
         </NavigationContainer>
 
     )
 }
+

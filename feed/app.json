@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "feed",
+    "slug": "feed",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,15 +22,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.alissonsp.myapp"
+      "package": "com.alissonsp.feed"
     },
     "web": {
-      "bundler": "metro",
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "0862cce7-1047-49f4-ad7d-3b225fe5eb1f"
+        "projectId": "5b3e4464-8e5b-477a-85f8-3b46fd0926b3"
       }
     }
   }

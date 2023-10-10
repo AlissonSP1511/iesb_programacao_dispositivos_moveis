@@ -107,8 +107,9 @@ const styles = StyleSheet.create({
         gap:30
     },
     img:{
-        width:400,
-        height:800,
+        flex:1,
+        width:50,
+        height:80,
     },
     display:{
         backgroundColor:'blue',
