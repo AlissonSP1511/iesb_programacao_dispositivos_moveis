@@ -4,7 +4,6 @@ import { Avatar, Card, IconButton } from 'react-native-paper'
 import Api from '../../services/Api'
 
 export default function Restaurantes({ navigation }) {
-  console.log(navigation)
 
   const [restaurantes, setRestaurantes] = useState([])
 

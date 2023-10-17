@@ -5,7 +5,6 @@ import { Avatar, Card, IconButton } from 'react-native-paper'
 import Api from '../../services/Api'
 
 export default function Home(props) {
-    console.log(props)
 
     const navigation = props.navigation
     const [usuarios, setUsuarios] = useState([])

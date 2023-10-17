@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "feed",
-    "slug": "feed",
+    "name": "formularios",
+    "slug": "formularios",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

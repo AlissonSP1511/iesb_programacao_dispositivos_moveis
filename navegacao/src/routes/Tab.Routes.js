@@ -12,7 +12,7 @@ const Tab = createBottomTabNavigator();
 export default function TabRoutes() {
     return (
         <Tab.Navigator
-            initialRouteName='Usuarios'
+            initialRouteName='Posts'
             screenOptions={{
                 headerShown: false
             }}
@@ -24,7 +24,7 @@ export default function TabRoutes() {
                 options={{
                     tabBarLabel: 'Usuários',
                     tabBarIcon: ({ color, size }) => {
-                        return <Ionicons name='people-outline' color={color} size={size} />
+                        return <Ionicons name='megaphone-outline' color={color} size={size} />
                     }
                 }}
             />
@@ -40,7 +40,7 @@ export default function TabRoutes() {
                 }}
             />
 
-            {/* <Tab.Screen
+            <Tab.Screen
                 name='Citacoes'
                 component={Citacoes}
                 options={{
@@ -49,7 +49,7 @@ export default function TabRoutes() {
                         return <Ionicons name='book-outline' color={color} size={size} />
                     }
                 }}
-            /> */}
+            />
 
         </Tab.Navigator>
     )
