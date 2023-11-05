@@ -35,7 +35,7 @@ export default function ListaPessoas({ navigation, route }) {
   }
 
   function editarPessoa(pessoaAntiga, novosDados) {
-    console.log('PESSOA ANTIGA -> ', pessoaAntiga)
+    console.log('PESSOA  ANTIGA -> ', pessoaAntiga)
     console.log('DADOS NOVOS -> ', novosDados)
 
     const novaListaPessoas = pessoas.map(pessoa => {
