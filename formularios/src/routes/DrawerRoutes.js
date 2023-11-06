@@ -11,6 +11,7 @@ import StackPessoasFormularioAltoNivel from '../screens/PessoasFormularioAltoNiv
 import Cadastro from '../screens/Cadastro/Cadastro'
 import StackAlunos from '../screens/ExercicioCrudAlunos/StackAlunos'
 import ExercicioListaTarefasAsyncStorage from '../screens/ExercicioListaTarefasAsyncStorage/ExercicioListaTarefasAsyncStorage'
+import StackAlunosAsyncStorage from '../screens/ExercicioCrudAlunosAsyncStorage/StackAlunosAsyncStorage'
 
 const Drawer = createDrawerNavigator()
 
@@ -27,6 +28,7 @@ export default function DrawerRoutes() {
             <Drawer.Screen name="Cadastro" component={Cadastro} />
             <Drawer.Screen name="Exercicio Crud Alunos" component={StackAlunos} />
             <Drawer.Screen name="Exercicio Lista Tarefas AsyncStorage" component={ExercicioListaTarefasAsyncStorage} />
+            <Drawer.Screen name="ExercicioCrudAlunosAsyncStorage" component={StackAlunosAsyncStorage} />
 
         </Drawer.Navigator>
 
